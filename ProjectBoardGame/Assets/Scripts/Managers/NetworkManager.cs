@@ -1,18 +1,12 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
 using Photon.Pun;
 using Photon.Realtime;
-using JetBrains.Annotations;
-using ProjectTM.Networkables;
-using ProjectTM.Core;
 using System;
+using UnityEngine;
 
 namespace ProjectTM.Managers
 {
     public class NetworkManager : GenericPunSingleton<NetworkManager>, IPunOwnershipCallbacks
     {
-        public GameObject Randomizer;
         public event Action RoomCreatedAndReady;
 
         public override void Awake()

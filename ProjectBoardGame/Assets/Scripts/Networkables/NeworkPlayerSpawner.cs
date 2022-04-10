@@ -9,13 +9,13 @@ namespace ProjectTM.Networkables
     {
         private GameObject spawnedPlayer;
 
-        public HandPresence Left, Right;
+        public HandPresence LeftHandPresence, RightHandPresence;
 
         public override void OnJoinedRoom()
         {
             base.OnJoinedRoom();
             spawnedPlayer = PhotonNetwork.Instantiate("Network Player", transform.position, transform.rotation);
-            spawnedPlayer.GetComponent<NetworkPlayer>().Init(Left, Right);
+            spawnedPlayer.GetComponent<NetworkPlayer>().Init(LeftHandPresence, RightHandPresence);
         }
 
         public override void OnLeftRoom()

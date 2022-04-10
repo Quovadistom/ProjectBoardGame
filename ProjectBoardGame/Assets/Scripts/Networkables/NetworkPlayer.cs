@@ -14,7 +14,7 @@ namespace ProjectTM.Networkables
         public Transform LeftHand;
         public Transform RightHand;
         public Animator LeftHandAnimator, RightHandAnimator;
-        public HandPresence Left, Right;
+        public HandPresence LeftHandPresence, RightHandPresence;
 
         private ActionBasedController leftHandActionBased, rightHandActionBased;
         private PhotonView photonView;
@@ -41,10 +41,10 @@ namespace ProjectTM.Networkables
             }
         }
 
-        public void Init(HandPresence left, HandPresence right)
+        public void Init(HandPresence leftHandPresence, HandPresence rightHandPresence)
         {
-            Left = left;
-            Right = right;
+            LeftHandPresence = leftHandPresence;
+            RightHandPresence = rightHandPresence;
         }
 
         void Update()
@@ -55,16 +55,19 @@ namespace ProjectTM.Networkables
                 MapPosition(RightHand, rightHandRig);
                 MapPosition(LeftHand, leftHandRig);
 
-                UpdateHandAnimation(LeftHandAnimator, Left);
-                UpdateHandAnimation(RightHandAnimator, Right);
+                UpdateHandAnimation(LeftHandAnimator, LeftHandPresence);
+                UpdateHandAnimation(RightHandAnimator, RightHandPresence);
             }
         }
 
         void UpdateHandAnimation(Animator handAnimator, HandPresence handPresence)
         {
-            handAnimator.SetFloat("Grip", handPresence.HandAnimator.GetFloat("Grip"));
-            handAnimator.SetFloat("Trigger", handPresence.HandAnimator.GetFloat("Trigger"));
-            handAnimator.SetFloat("ThumbRest", handPresence.HandAnimator.GetFloat("ThumbRest"));
+            if (handPresence.HandAnimator != null)
+            {
+                handAnimator.SetFloat("Grip", handPresence.HandAnimator.GetFloat("Grip"));
+                handAnimator.SetFloat("Trigger", handPresence.HandAnimator.GetFloat("Trigger"));
+                handAnimator.SetFloat("ThumbRest", handPresence.HandAnimator.GetFloat("ThumbRest"));
+            }
         }
 
         void MapPosition(Transform target, Transform rigTransform)

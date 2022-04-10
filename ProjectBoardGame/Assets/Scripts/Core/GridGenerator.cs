@@ -6,7 +6,6 @@ using UnityEditor;
 using UnityEngine;
 
 
-[RequireComponent(typeof(RoomGenerator))]
 public class GridGenerator : MonoBehaviour
 {
     [Range(7, 15)] public int Width = 7;

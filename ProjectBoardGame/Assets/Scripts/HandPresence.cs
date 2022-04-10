@@ -19,9 +19,10 @@ public class HandPresence : MonoBehaviour
     private UnityEngine.XR.InputDevice targetDevice;
     private GameObject spawnedController;
     private GameObject m_spawnedHandModel;
-    public Animator HandAnimator;
     private bool triggerTouched;
     private float triggerLerp, triggerValue, gripValue, thumbRestLerp;
+
+    public Animator HandAnimator { get; set; }
 
     void Start()
     {
@@ -100,14 +101,23 @@ public class HandPresence : MonoBehaviour
             HandAnimator.SetFloat("Grip", 0);
         }
 
-        if (targetDevice.TryGetFeatureValue(OculusUsages.thumbTouch, out bool test))
+        if (targetDevice.TryGetFeatureValue(OculusUsages.thumbTouch, out bool thumbOnController))
         {
             float gripFloat = HandAnimator.GetFloat("Grip");
-            float returnValue = 0.5f + gripFloat * 0.5f;
 
-            float value = test ? returnValue : 0;
-            thumbRestLerp = Mathf.Lerp(HandAnimator.GetFloat("ThumbRest"), value, 30 * Time.deltaTime);
-            HandAnimator.SetFloat("ThumbRest", thumbRestLerp);
+            if (gripFloat >= 0.01f)
+            {
+                float returnValue = 0.5f + gripFloat * 0.5f;
+
+                float value = thumbOnController ? returnValue : 0;
+                thumbRestLerp = Mathf.Lerp(HandAnimator.GetFloat("ThumbRest"), value, 30 * Time.deltaTime);
+                HandAnimator.SetFloat("ThumbRest", thumbRestLerp);
+            }
+            else
+            {
+                thumbRestLerp = Mathf.Lerp(HandAnimator.GetFloat("ThumbRest"), 0.5f, 30 * Time.deltaTime);
+                HandAnimator.SetFloat("ThumbRest", thumbRestLerp);
+            }
         }
     }
 

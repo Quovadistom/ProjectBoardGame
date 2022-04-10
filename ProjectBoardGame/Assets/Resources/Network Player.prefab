@@ -468,8 +468,8 @@ MonoBehaviour:
   RightHand: {fileID: 5521082154506729492}
   LeftHandAnimator: {fileID: 5722025771725486892}
   RightHandAnimator: {fileID: 4086055413045017645}
-  Left: {fileID: 0}
-  Right: {fileID: 0}
+  LeftHandPresence: {fileID: 0}
+  RightHandPresence: {fileID: 0}
 --- !u!114 &7907343373545056218
 MonoBehaviour:
   m_ObjectHideFlags: 0

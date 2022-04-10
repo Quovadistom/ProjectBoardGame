@@ -21,14 +21,6 @@ public class SpawnService : GenericSingleton<SpawnService>, IDisposable
         PhotonNetwork.NetworkingClient.EventReceived += OnEvent;
     }
 
-    internal void SpawnDebugObjects(IEnumerable<RoomObject> values)
-    {
-        foreach (var objectToSpawn in values)
-        {
-            Instantiate(objectToSpawn.Asset, objectToSpawn.Position, objectToSpawn.Rotation);
-        }
-    }
-
     private void QueueObjectsToSend(IEnumerable<SpawnObject> values)
     {
         foreach (var value in values)

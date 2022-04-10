@@ -5,10 +5,8 @@ using static ResourcesSettings;
 
 public class GeneratorService : GenericSingleton<GeneratorService>
 {
-    public Dictionary<Vector3, RoomObject> DebugObjects = new Dictionary<Vector3, RoomObject>();
     public Dictionary<Vector3, SpawnObject> SpawnObjects = new Dictionary<Vector3, SpawnObject>();
     private int m_finishedGenerators = 0;
-    private List<GeneratedCollection> m_roomGenerators = new List<GeneratedCollection>();
     private ResourcesSettings m_resourcesSettings;
     private DebugSettings m_debugSettings;
 
@@ -16,22 +14,6 @@ public class GeneratorService : GenericSingleton<GeneratorService>
     {
         m_resourcesSettings = ScriptableObjectService.Instance.GetScriptableObject<ResourcesSettings>();
         m_debugSettings = ScriptableObjectService.Instance.GetScriptableObject<DebugSettings>();
-    }
-
-    public void AddGeneratedCollection(GeneratedCollection roomGenerator)
-    {
-        m_roomGenerators.Add(roomGenerator);
-        roomGenerator.OnGeneratingDone += GenerationDone;
-    }
-
-    public void AddDebugObjects(IEnumerable<RoomObject> debugObjects)
-    {
-        foreach (var debugObject in debugObjects)
-        {
-            if (DebugObjects.ContainsKey(debugObject.Position)) { return; }
-
-            DebugObjects.Add(debugObject.Position, debugObject);
-        }
     }
 
     public void AddSpawnObject(SpawnObject spawnObject)
@@ -48,22 +30,6 @@ public class GeneratorService : GenericSingleton<GeneratorService>
             if (SpawnObjects.ContainsKey(spawnObject.Position)) { return; }
 
             SpawnObjects.Add(spawnObject.Position, spawnObject);
-        }
-    }
-
-    private void GenerationDone()
-    {
-        m_finishedGenerators++;
-        if (m_finishedGenerators == m_roomGenerators.Count)
-        {
-            if (m_debugSettings.ShowDebugAssets)
-                SpawnService.Instance.SpawnDebugObjects(DebugObjects.Values);
-            if (m_debugSettings.ShowGameAssets)
-            {
-                AssignGameObjects(SpawnObjects.Values);
-
-                SpawnService.Instance.SpawnGameObjects(SpawnObjects.Values);
-            }
         }
     }
 

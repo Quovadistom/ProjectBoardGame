@@ -15,12 +15,5 @@ public class SpawnObject : PositionObject
 
 public enum ObjectType
 {
-    WALLOUTSIDE,
-    WALLINSIDE,
-    DOOROUTSIDE,
-    DOORINSIDE,
-    FLOOROUTSIDE,
-    FLOORINSIDE,
-    CORNER,
     NONE
 }
