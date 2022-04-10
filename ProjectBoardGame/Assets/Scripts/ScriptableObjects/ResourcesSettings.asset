@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adefe1e66c06f034aa3372da7098a383, type: 3}
+  m_Name: ResourcesSettings
+  m_EditorClassIdentifier: 
+  DebugObjects:
+    OutsideWall: {fileID: 5072520703560676423, guid: 1c924494047659849a797ea09432c955, type: 3}
+    InsideWall: {fileID: 5072520703560676423, guid: 0b1c40b9d7401c44492b982c878af824, type: 3}
+    OutsideDoor: {fileID: 5072520703560676423, guid: 0b40f5e35a4699546b6df99ee72a0710, type: 3}
+    InsideDoor: {fileID: 5072520703560676423, guid: 139e3f71ca4fef14ba51cee2f652cf36, type: 3}
+    CornerTile: {fileID: 5072520703560676423, guid: 58975a6bec6f95f4a8eacc79bd4a58f0, type: 3}
+    DoorTile: {fileID: 2149397487541926682, guid: 9791a6dbe7eab0843aca399c73ece38a, type: 3}
+    GrassTile: {fileID: 2149397487541926682, guid: e8ecd4c7053481d4e94922f6e43f638d, type: 3}
+    MiddleTile: {fileID: 5072520703560676423, guid: 5aec41fdada28ba4a903524ee05930f3, type: 3}
+    WallTile: {fileID: 5072520703560676423, guid: d280eabfab2bfd741bb2996f40acf7aa, type: 3}
+    PuzzleSlot: {fileID: 2149397487541926682, guid: 1af82cd1734a1ed4d845ed0802666717, type: 3}
+  GenericTheme:
+    OutsideWalls:
+    - Item: {fileID: 919132149155446097, guid: dc9d96d83206d2a4a9cca6b6ae441ab4, type: 3}
+      Weight: 100
+    InsideWalls:
+    - Item: {fileID: 919132149155446097, guid: 6ed6a8ddc1895ff4aa0769cf06961f85, type: 3}
+      Weight: 100
+    OutsideDoors:
+    - Item: {fileID: 919132149155446097, guid: 834ec6ada9a526244b83230c03741b81, type: 3}
+      Weight: 100
+    InsideDoors:
+    - Item: {fileID: 919132149155446097, guid: 834ec6ada9a526244b83230c03741b81, type: 3}
+      Weight: 100
+    OutsideTiles:
+    - Item: {fileID: 919132149155446097, guid: 6e63a6b7620e5da4491ae88174c6421b, type: 3}
+      Weight: 100
+    - Item: {fileID: 919132149155446097, guid: 819e0ef633420704bbe57449c7906fc0, type: 3}
+      Weight: 20
+    - Item: {fileID: 919132149155446097, guid: d0cfa42b4bb362a4ea4845428a448303, type: 3}
+      Weight: 5
+    InsideTiles:
+    - Item: {fileID: 2149397487541926682, guid: 57b66ad6b0d23c841b7d5eef118683fe, type: 3}
+      Weight: 100
+    Corners:
+    - Item: {fileID: 2296182679926129931, guid: 47c1c68bbc3749845b20a2648a7e9052, type: 3}
+      Weight: 100
