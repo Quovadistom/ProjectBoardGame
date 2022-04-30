@@ -1,28 +1,17 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "ResourcesSettings", menuName = "ScriptableObjects/ResourcesSettings", order = 1)]
+
 public class ResourcesSettings : ScriptableObject
 {
     [Serializable]
-    public struct DebugAssets
-    {
-
-    }
-
-    [Serializable]
     public struct Theme
     {
-        public WeightedItem<GameObject>[] TestObjectList;
-    }
-
-    public DebugAssets DebugObjects;
-
-    public DebugAssets GetDebugAssets() 
-    { 
-        return DebugObjects;
+        public WeightedItem<GameObject>[] Plains;
+        public WeightedItem<GameObject>[] Desert;
+        public WeightedItem<GameObject>[] Water;
+        public WeightedItem<GameObject>[] Forest;
     }
 
     public Theme GenericTheme;
@@ -32,15 +21,33 @@ public class ResourcesSettings : ScriptableObject
         return GenericTheme;
     }
 
-    
     public WeightedItem<GameObject>[] GetCorrectObjectList(SpawnObject spawnObject, Theme theme)
     {
-        switch (spawnObject.Type)
+        return GetCorrectObjectList(spawnObject.Type, theme);
+    }
+
+    public WeightedItem<GameObject>[] GetCorrectObjectList(TileBiome type, Theme theme)
+    {
+        switch (type)
         {
-            case ObjectType.NONE:
-                return null;
+            case TileBiome.PLAINS:
+                return theme.Plains;
+            case TileBiome.DESERT:
+                return theme.Desert;
+            case TileBiome.WATER:
+                return theme.Water;
+            case TileBiome.FOREST:
+                return theme.Forest;
             default:
                 return null;
         }
     }
+}
+
+public enum TileBiome
+{
+    PLAINS,
+    DESERT,
+    WATER,
+    FOREST
 }

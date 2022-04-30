@@ -15,22 +15,19 @@ public class GeneratorService : GenericSingleton<GeneratorService>
         m_resourcesSettings = ScriptableObjectService.Instance.GetScriptableObject<ResourcesSettings>();
         m_debugSettings = ScriptableObjectService.Instance.GetScriptableObject<DebugSettings>();
     }
+    public void AddSpawnObjects(IEnumerable<SpawnObject> spawnObjects)
+    {
+        foreach (SpawnObject spawnObject in spawnObjects)
+        {
+            AddSpawnObject(spawnObject);
+        }
+    }
 
     public void AddSpawnObject(SpawnObject spawnObject)
     {
         if (SpawnObjects.ContainsKey(spawnObject.Position)) { return; }
 
         SpawnObjects.Add(spawnObject.Position, spawnObject);
-    }
-
-    public void AddSpawnObjects(IEnumerable<SpawnObject> spawnObjects)
-    {
-        foreach (SpawnObject spawnObject in spawnObjects)
-        {
-            if (SpawnObjects.ContainsKey(spawnObject.Position)) { return; }
-
-            SpawnObjects.Add(spawnObject.Position, spawnObject);
-        }
     }
 
     private void AssignGameObjects(IEnumerable<SpawnObject> values)

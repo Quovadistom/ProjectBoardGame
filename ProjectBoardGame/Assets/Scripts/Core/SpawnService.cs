@@ -29,7 +29,7 @@ public class SpawnService : GenericSingleton<SpawnService>, IDisposable
         }
     }
 
-    internal void SpawnGameObjects(IEnumerable<SpawnObject> values)
+    public void SpawnGameObjects(IEnumerable<SpawnObject> values)
     {
         if (PhotonNetwork.CurrentRoom.PlayerCount == 1)
         {

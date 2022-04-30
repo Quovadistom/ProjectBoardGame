@@ -147,6 +147,11 @@ PlayerSettings:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: -4308463159282380895, guid: e9762903a49a48546ad41e873055b84e, type: 2}
   - {fileID: 11400000, guid: e96bb0d4ec91aec44a21cabe52ab6c43, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -259,8 +264,8 @@ PlayerSettings:
   AndroidTargetDevices: 0
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: '{inproject}: KeyStore/PuzzleGame.keystore'
-  AndroidKeyaliasName: puzzlegame
+  AndroidKeystoreName: C:/Users/tombe/Documents/GitHub/Nieuwe map/ProjectTM/Builds/KeyStore/ProjectBoardGame.keystore
+  AndroidKeyaliasName: boardgame
   AndroidBuildApkPerCpuArchitecture: 0
   AndroidTVCompatibility: 0
   AndroidIsGame: 1
@@ -596,7 +601,9 @@ PlayerSettings:
   switchPlayerConnectionEnabled: 1
   switchUseNewStyleFilepaths: 0
   switchUseMicroSleepForYield: 1
+  switchEnableRamDiskSupport: 0
   switchMicroSleepForYieldTime: 25
+  switchRamDiskSpaceSize: 12
   ps4NPAgeRating: 12
   ps4NPTitleSecret: 
   ps4NPTrophyPackPath: 
@@ -768,6 +775,7 @@ PlayerSettings:
   metroFTAName: 
   metroFTAFileTypes: []
   metroProtocolName: 
+  vcxProjDefaultLanguage: 
   XboxOneProductId: 
   XboxOneUpdateKey: 
   XboxOneSandboxId: 

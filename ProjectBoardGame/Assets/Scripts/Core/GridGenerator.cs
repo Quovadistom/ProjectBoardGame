@@ -79,8 +79,8 @@ public class GridGenerator : MonoBehaviour
         {
             for (int h = 0; h < Height; h++)
             {
-                GameObject node = PrefabUtility.InstantiatePrefab(NodeAsset, this.transform) as GameObject;
-                node.transform.localPosition = new Vector3(widthOffset - w, 0, h - heightOffset);
+                //GameObject node = PrefabUtility.InstantiatePrefab(NodeAsset, this.transform) as GameObject;
+                //node.transform.localPosition = new Vector3(widthOffset - w, 0, h - heightOffset);
             }
         }
 
@@ -96,7 +96,7 @@ public class GridGenerator : MonoBehaviour
 }
 
 
-
+#if UNITY_EDITOR
 [CustomEditor(typeof(GridGenerator))]
 public class GridGeneratorEditor : Editor
 {
@@ -112,3 +112,4 @@ public class GridGeneratorEditor : Editor
             script.RemoveNodes();
     }
 }
+#endif

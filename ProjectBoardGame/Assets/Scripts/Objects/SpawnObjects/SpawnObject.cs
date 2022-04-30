@@ -4,16 +4,11 @@ using UnityEngine;
 [Serializable]
 public class SpawnObject : PositionObject
 {
-    public SpawnObject(ObjectType type, Vector3 position, Vector3 scale, Quaternion rotation) : base(position, scale, rotation)
+    public SpawnObject(TileBiome type, Vector3 position, Vector3 scale, Quaternion rotation) : base(position, scale, rotation)
     {
         Type = type;
     }
 
-    public ObjectType Type;
+    public TileBiome Type;
     public int Index;
-}
-
-public enum ObjectType
-{
-    NONE
 }

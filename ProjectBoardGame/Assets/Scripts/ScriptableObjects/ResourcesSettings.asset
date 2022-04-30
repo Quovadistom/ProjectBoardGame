@@ -13,4 +13,15 @@ MonoBehaviour:
   m_Name: ResourcesSettings
   m_EditorClassIdentifier: 
   GenericTheme:
-    TestObjectList: []
+    Plains:
+    - Item: {fileID: 5555081217354126195, guid: 87ac0141eea93464c974ff3bcfc1c163, type: 3}
+      Weight: 100
+    Desert:
+    - Item: {fileID: 5555081217354126195, guid: 87ac0141eea93464c974ff3bcfc1c163, type: 3}
+      Weight: 100
+    Water:
+    - Item: {fileID: 5555081217354126195, guid: 87ac0141eea93464c974ff3bcfc1c163, type: 3}
+      Weight: 100
+    Forest:
+    - Item: {fileID: 5555081217354126195, guid: 4e3668e1170d46b459e7702b37fbf568, type: 3}
+      Weight: 100
