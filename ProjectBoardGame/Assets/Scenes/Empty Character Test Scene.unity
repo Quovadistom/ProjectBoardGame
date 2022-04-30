@@ -2813,7 +2813,7 @@ MonoBehaviour:
   Scale: 4
   Orientation: 0
   TileBiome: 1
-  TileType: 0
+  TileType: 1
   NeighboringTiles: []
 --- !u!1 &522827783 stripped
 GameObject:
