@@ -27,6 +27,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3569914042399024975}
   - {fileID: 5199558287447055838}
@@ -131,6 +132,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pawn
       objectReference: {fileID: 0}
+    - target: {fileID: 2021736280887248265, guid: 37463fac4d5f1264faae666697d42c0f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 5911236356053970311, guid: 37463fac4d5f1264faae666697d42c0f, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -181,14 +186,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 37463fac4d5f1264faae666697d42c0f, type: 3}
---- !u!1 &9190907453979103041 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2021736280887248265, guid: 37463fac4d5f1264faae666697d42c0f, type: 3}
-  m_PrefabInstance: {fileID: 7170310933462895304}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &3569914042399024975 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5911236356053970311, guid: 37463fac4d5f1264faae666697d42c0f, type: 3}
+  m_PrefabInstance: {fileID: 7170310933462895304}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &9190907453979103041 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2021736280887248265, guid: 37463fac4d5f1264faae666697d42c0f, type: 3}
   m_PrefabInstance: {fileID: 7170310933462895304}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &7713339228809298723
@@ -207,7 +212,10 @@ MonoBehaviour:
   m_InteractionLayerMask:
     serializedVersion: 2
     m_Bits: 128
+  m_InteractionLayers:
+    m_Bits: 128
   m_AttachTransform: {fileID: 0}
+  m_KeepSelectedTargetValid: 1
   m_StartingSelectedInteractable: {fileID: 0}
   m_HoverEntered:
     m_PersistentCalls:

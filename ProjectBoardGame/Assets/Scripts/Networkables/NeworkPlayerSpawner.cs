@@ -1,16 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Photon.Pun;
 
 namespace ProjectTM.Networkables
 {
-    public class NeworkPlayerSpawner : MonoBehaviourPunCallbacks
+    public class NeworkPlayerSpawner : MonoBehaviour //MonoBehaviourPunCallbacks
     {
         private GameObject spawnedPlayer;
 
         public HandPresence LeftHandPresence, RightHandPresence;
 
+        /*
         public override void OnJoinedRoom()
         {
             base.OnJoinedRoom();
@@ -23,6 +23,6 @@ namespace ProjectTM.Networkables
             base.OnLeftRoom();
             PhotonNetwork.Destroy(spawnedPlayer);
         }
-
+        */
     }
 }

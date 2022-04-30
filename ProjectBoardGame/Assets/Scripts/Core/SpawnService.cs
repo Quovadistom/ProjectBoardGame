@@ -1,6 +1,3 @@
-using ExitGames.Client.Photon;
-using Photon.Pun;
-using Photon.Realtime;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -9,7 +6,7 @@ using System.Threading.Tasks;
 using UnityEngine;
 using static ResourcesSettings;
 
-public class SpawnService : GenericSingleton<SpawnService>, IDisposable
+public class SpawnService : GenericSingleton<SpawnService>
 {
     private ResourcesSettings m_resourcesSettings;
     private bool m_creatingData = false;
@@ -18,7 +15,7 @@ public class SpawnService : GenericSingleton<SpawnService>, IDisposable
     public SpawnService()
     {
         m_resourcesSettings = ScriptableObjectService.Instance.GetScriptableObject<ResourcesSettings>();
-        PhotonNetwork.NetworkingClient.EventReceived += OnEvent;
+        //PhotonNetwork.NetworkingClient.EventReceived += OnEvent;
     }
 
     private void QueueObjectsToSend(IEnumerable<SpawnObject> values)
@@ -29,6 +26,7 @@ public class SpawnService : GenericSingleton<SpawnService>, IDisposable
         }
     }
 
+    /*
     public void SpawnGameObjects(IEnumerable<SpawnObject> values)
     {
         if (PhotonNetwork.CurrentRoom.PlayerCount == 1)
@@ -102,4 +100,5 @@ public class SpawnService : GenericSingleton<SpawnService>, IDisposable
     {
         PhotonNetwork.NetworkingClient.EventReceived -= OnEvent;
     }
+    */
 }

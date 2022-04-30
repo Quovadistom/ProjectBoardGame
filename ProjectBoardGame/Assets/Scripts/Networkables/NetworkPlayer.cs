@@ -1,4 +1,3 @@
-using Photon.Pun;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.XR.OpenVR;
@@ -17,14 +16,14 @@ namespace ProjectTM.Networkables
         public HandPresence LeftHandPresence, RightHandPresence;
 
         private ActionBasedController leftHandActionBased, rightHandActionBased;
-        private PhotonView photonView;
+        //private PhotonView photonView;
         private Transform headRig;
         private Transform leftHandRig;
         private Transform rightHandRig;
 
         void Start()
         {
-            photonView = GetComponent<PhotonView>();
+            //photonView = GetComponent<PhotonView>();
             XRRig rig = FindObjectOfType<XRRig>();
             headRig = rig.transform.Find("Camera Offset/Main Camera");
             leftHandRig = rig.transform.Find("Camera Offset/LeftHand Controller");
@@ -32,7 +31,7 @@ namespace ProjectTM.Networkables
             leftHandActionBased = leftHandRig.gameObject.GetComponent<ActionBasedController>();
             rightHandActionBased = rightHandRig.gameObject.GetComponent<ActionBasedController>();
 
-            if (photonView.IsMine)
+            //if (photonView.IsMine)
             {
                 foreach (var renderer in GetComponentsInChildren<Renderer>())
                 {
@@ -49,6 +48,7 @@ namespace ProjectTM.Networkables
 
         void Update()
         {
+            /*
             if (photonView.IsMine)
             {
                 MapPosition(Head, headRig);
@@ -58,6 +58,7 @@ namespace ProjectTM.Networkables
                 UpdateHandAnimation(LeftHandAnimator, LeftHandPresence);
                 UpdateHandAnimation(RightHandAnimator, RightHandPresence);
             }
+            */
         }
 
         void UpdateHandAnimation(Animator handAnimator, HandPresence handPresence)

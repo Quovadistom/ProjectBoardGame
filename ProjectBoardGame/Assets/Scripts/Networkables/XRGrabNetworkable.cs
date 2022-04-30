@@ -2,20 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
-using Photon.Pun;
 using Photon.Realtime;
 
 namespace ProjectTM.Networkables
 {
     public class XRGrabNetworkable : XRGrabInteractable
     {
-        private PhotonView photonView;
+        //private PhotonView photonView;
         private XRBaseInteractor currentInteractor;
         
 
         void Start()
         {
-            photonView = PhotonView.Get(this);
+            //photonView = PhotonView.Get(this);
         }
 
         protected override void OnSelectEntering(SelectEnterEventArgs args)
@@ -24,10 +23,10 @@ namespace ProjectTM.Networkables
 
             currentInteractor = args.interactor;
 
-            if (!photonView.IsMine)
-            {
-                photonView.RequestOwnership();                
-            }
+            //if (!photonView.IsMine)
+            //{
+            //    photonView.RequestOwnership();                
+            //}
 
             if (gameObject.layer != 8)
                 gameObject.layer = 6;

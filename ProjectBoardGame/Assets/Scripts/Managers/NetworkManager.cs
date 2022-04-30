@@ -1,11 +1,9 @@
-using Photon.Pun;
-using Photon.Realtime;
 using System;
 using UnityEngine;
 
 namespace ProjectTM.Managers
 {
-    public class NetworkManager : GenericPunSingleton<NetworkManager>, IPunOwnershipCallbacks
+    public class NetworkManager : GenericSingleton<NetworkManager>
     {
         public event Action RoomCreatedAndReady;
 
@@ -18,9 +16,10 @@ namespace ProjectTM.Managers
 
         private void OnAppInitializationDone()
         {
-            ConnectToServer();
+            //ConnectToServer();
         }
 
+        /*
         private void ConnectToServer()
         {
             PhotonNetwork.ConnectUsingSettings();
@@ -67,5 +66,6 @@ namespace ProjectTM.Managers
         public void OnOwnershipTransfered(PhotonView targetView, Player previousOwner) { }
 
         public void OnOwnershipTransferFailed(PhotonView targetView, Player senderOfFailedRequest) { }
+        */
     }
 }
