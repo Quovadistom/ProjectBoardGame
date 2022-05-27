@@ -1,37 +1,32 @@
-using System.Collections;
-using System.Collections.Generic;
-using Unity.XR.OpenVR;
+using Fusion;
+using Unity.XR.CoreUtils;
 using UnityEngine;
-using UnityEngine.XR;
-using UnityEngine.XR.Interaction.Toolkit;
 
 namespace ProjectTM.Networkables
 {
-    public class NetworkPlayer : MonoBehaviour
+    public class NetworkPlayer : SimulationBehaviour
     {
         public Transform Head;
         public Transform LeftHand;
         public Transform RightHand;
         public Animator LeftHandAnimator, RightHandAnimator;
-        public HandPresence LeftHandPresence, RightHandPresence;
 
-        private ActionBasedController leftHandActionBased, rightHandActionBased;
-        //private PhotonView photonView;
+        private NetworkObject networkObject;
         private Transform headRig;
         private Transform leftHandRig;
         private Transform rightHandRig;
+        private HandPresence m_leftHandPresence, m_rightHandPresence;
 
         void Start()
         {
-            //photonView = GetComponent<PhotonView>();
-            XRRig rig = FindObjectOfType<XRRig>();
+            networkObject = GetComponent<NetworkObject>();
+            networkObject.AssignInputAuthority(Runner.LocalPlayer);
+            XROrigin rig = FindObjectOfType<XROrigin>();
             headRig = rig.transform.Find("Camera Offset/Main Camera");
             leftHandRig = rig.transform.Find("Camera Offset/LeftHand Controller");
             rightHandRig = rig.transform.Find("Camera Offset/RightHand Controller");
-            leftHandActionBased = leftHandRig.gameObject.GetComponent<ActionBasedController>();
-            rightHandActionBased = rightHandRig.gameObject.GetComponent<ActionBasedController>();
 
-            //if (photonView.IsMine)
+            if (networkObject.HasInputAuthority)
             {
                 foreach (var renderer in GetComponentsInChildren<Renderer>())
                 {
@@ -42,23 +37,21 @@ namespace ProjectTM.Networkables
 
         public void Init(HandPresence leftHandPresence, HandPresence rightHandPresence)
         {
-            LeftHandPresence = leftHandPresence;
-            RightHandPresence = rightHandPresence;
+            m_leftHandPresence = leftHandPresence;
+            m_rightHandPresence = rightHandPresence;
         }
 
         void Update()
-        {
-            /*
-            if (photonView.IsMine)
+        {            
+            if (networkObject.HasStateAuthority)
             {
                 MapPosition(Head, headRig);
                 MapPosition(RightHand, rightHandRig);
                 MapPosition(LeftHand, leftHandRig);
 
-                UpdateHandAnimation(LeftHandAnimator, LeftHandPresence);
-                UpdateHandAnimation(RightHandAnimator, RightHandPresence);
+                UpdateHandAnimation(LeftHandAnimator, m_leftHandPresence);
+                UpdateHandAnimation(RightHandAnimator, m_rightHandPresence);
             }
-            */
         }
 
         void UpdateHandAnimation(Animator handAnimator, HandPresence handPresence)

@@ -1,10 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Fusion;
 
 namespace ProjectTM.Networkables
 {
-    public class NeworkPlayerSpawner : MonoBehaviour //MonoBehaviourPunCallbacks
+    public class NeworkPlayerSpawner : MonoBehaviour
     {
         private GameObject spawnedPlayer;
 

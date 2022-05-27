@@ -72,33 +72,14 @@ public class HandPresence : MonoBehaviour
     {
         if (targetDevice.TryGetFeatureValue(UnityEngine.XR.CommonUsages.trigger, out triggerValue))
         {
-            triggerValue = controller.activateAction.action.ReadValue<float>();
+            triggerValue = controller.activateActionValue.action.ReadValue<float>();
             HandAnimator.SetFloat("Trigger", triggerValue);
-        }
-        else
-        {
-            HandAnimator.SetFloat("Trigger", 0);
         }
 
         if (targetDevice.TryGetFeatureValue(UnityEngine.XR.CommonUsages.grip, out gripValue))
         {
-            gripValue = controller.selectAction.action.ReadValue<float>();
+            gripValue = controller.selectActionValue.action.ReadValue<float>();
             HandAnimator.SetFloat("Grip", gripValue);
-
-            if (gripValue > triggerValue && triggerTouched)
-            {
-                triggerLerp = Mathf.Lerp(triggerLerp, gripValue, 30 * Time.deltaTime);
-                HandAnimator.SetFloat("Trigger", triggerLerp);
-            }
-            else if (gripValue > 0.001f && !triggerTouched)
-            {
-                triggerLerp = Mathf.Lerp(triggerLerp, 0, 30 * Time.deltaTime);
-                HandAnimator.SetFloat("Trigger", triggerLerp);
-            }
-        }
-        else
-        {
-            HandAnimator.SetFloat("Grip", 0);
         }
 
         if (targetDevice.TryGetFeatureValue(OculusUsages.thumbTouch, out bool thumbOnController))
