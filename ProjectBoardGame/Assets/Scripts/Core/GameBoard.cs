@@ -36,13 +36,15 @@ public class GameBoard : MonoBehaviour
     private void OnAppInitializatonDone()
     {
         Tile[] tiles = GetComponentsInChildren<Tile>();
+
         foreach (Tile tile in tiles)
         {
             m_tiles.Add(tile);
+            tile.CreatePawnInteractor();
         }
 
         Tile orientationTile = m_tiles.FirstOrDefault(tile => tile.Orientation != Orientation.UNDEFINED);
-        orientationTile.SetOrientation(orientationTile.Orientation);
+        orientationTile.InitializeTile(orientationTile.Orientation);
         SetOrientation(orientationTile);
 
         if (m_initialized)
@@ -63,9 +65,9 @@ public class GameBoard : MonoBehaviour
             if (tile.Orientation == Orientation.UNDEFINED)
             {
                 if (orientationTile.Orientation == Orientation.LEFT)
-                    tile.SetOrientation(Orientation.RIGHT);
+                    tile.InitializeTile(Orientation.RIGHT);
                 else if (orientationTile.Orientation == Orientation.RIGHT)
-                    tile.SetOrientation(Orientation.LEFT);
+                    tile.InitializeTile(Orientation.LEFT);
 
                 SetOrientation(tile);
             }

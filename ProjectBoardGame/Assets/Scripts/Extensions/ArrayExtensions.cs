@@ -23,4 +23,10 @@ public static class ArrayExtensions
 
         return Array.IndexOf(weights, weights.FirstOrDefault(x => x > randomIndex));
     }
+
+    public static T GetRandomWeightedItem<T>(this WeightedItem<T>[] array)
+    {
+        int index = GetRandomIndexWeighted(array);
+        return array[index].Item;
+    }
 }

@@ -33,18 +33,5 @@ public class GeneratorService : GenericSingleton<GeneratorService>
     private void AssignGameObjects(IEnumerable<SpawnObject> values)
     {
         Theme theme = m_resourcesSettings.GetTheme();
-
-        foreach (SpawnObject spawnObject in values)
-        {
-            WeightedItem<GameObject>[] gameObjectList = m_resourcesSettings.GetCorrectObjectList(spawnObject, theme);
-
-            if (gameObjectList == null)
-            {
-                Debug.LogWarning($"No corresponding GameObjects of type {spawnObject.Type} found. Please add this type!");
-                continue;
-            }
-
-            spawnObject.Index = gameObjectList.GetRandomIndexWeighted();
-        }
     }
 }

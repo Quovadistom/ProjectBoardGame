@@ -8,10 +8,10 @@ public class ResourcesSettings : ScriptableObject
     [Serializable]
     public struct Theme
     {
-        public WeightedItem<GameObject>[] Plains;
-        public WeightedItem<GameObject>[] Desert;
-        public WeightedItem<GameObject>[] Water;
-        public WeightedItem<GameObject>[] Forest;
+        public WeightedItem<TileInteractor>[] Plains;
+        public WeightedItem<TileInteractor>[] Desert;
+        public WeightedItem<TileInteractor>[] Water;
+        public WeightedItem<TileInteractor>[] Forest;
     }
 
     public Theme GenericTheme;
@@ -21,12 +21,12 @@ public class ResourcesSettings : ScriptableObject
         return GenericTheme;
     }
 
-    public WeightedItem<GameObject>[] GetCorrectObjectList(SpawnObject spawnObject, Theme theme)
+    public WeightedItem<TileInteractor>[] GetCorrectObjectList(SpawnObject spawnObject, Theme theme)
     {
         return GetCorrectObjectList(spawnObject.Type, theme);
     }
 
-    public WeightedItem<GameObject>[] GetCorrectObjectList(TileBiome type, Theme theme)
+    public WeightedItem<TileInteractor>[] GetCorrectObjectList(TileBiome type, Theme theme)
     {
         switch (type)
         {

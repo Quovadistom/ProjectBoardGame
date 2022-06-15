@@ -1,10 +1,8 @@
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 using DG.Tweening;
-using DG.Tweening.Core;
-using DG.Tweening.Plugins.Options;
 
-public class TileInteractionHelper : MonoBehaviour
+public class TileInteractor : MonoBehaviour
 {
     public XRSocketInteractor SocketInteractor;
     private GameBoard m_gameBoard;
@@ -32,7 +30,7 @@ public class TileInteractionHelper : MonoBehaviour
         m_isOccupied = false;
         foreach (Tile tile in m_tile.NeighboringTiles)
         {
-            TileInteractionHelper helper = tile.GetComponentInChildren<TileInteractionHelper>();
+            TileInteractor helper = tile.GetComponentInChildren<TileInteractor>();
             helper.ToggleSocketInteractor(true);
         }
     }

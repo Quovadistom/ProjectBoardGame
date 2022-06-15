@@ -6,7 +6,7 @@ public static class ListExtensions
 {
     public static T GetRandomItem<T>(this List<T> list)
     {
-        int randomIndex = Random.Range(0, list.Count - 1);
+        int randomIndex = Random.Range(0, list.Count);
         return list[randomIndex];
     }
 

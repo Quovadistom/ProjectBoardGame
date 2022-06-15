@@ -526,7 +526,7 @@ MonoBehaviour:
   Scale: 1
   Orientation: 0
   TileBiome: 0
-  TileType: 0
+  TileType: 2
   NeighboringTiles: []
 --- !u!1 &125365078 stripped
 GameObject:
@@ -1674,7 +1674,7 @@ MonoBehaviour:
   Scale: 1
   Orientation: 0
   TileBiome: 0
-  TileType: 0
+  TileType: 2
   NeighboringTiles: []
 --- !u!1 &352381680 stripped
 GameObject:
@@ -2521,7 +2521,7 @@ MonoBehaviour:
   Scale: 1
   Orientation: 0
   TileBiome: 0
-  TileType: 0
+  TileType: 2
   NeighboringTiles: []
 --- !u!1 &460075961 stripped
 GameObject:
@@ -3696,7 +3696,7 @@ MonoBehaviour:
   Scale: 1
   Orientation: 0
   TileBiome: 0
-  TileType: 0
+  TileType: 2
   NeighboringTiles: []
 --- !u!1 &724263537 stripped
 GameObject:
@@ -3957,6 +3957,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ResourcesSettings: {fileID: 11400000, guid: 48aac8e7a2fbf1c49ae2d46f45608a01, type: 2}
   DebugSettings: {fileID: 11400000, guid: 7655c0a452a1adb40ae41c45ca568ff5, type: 2}
+  TileAssets: {fileID: 11400000, guid: 0debe223b36e3694098945bf91e40d2d, type: 2}
 --- !u!4 &778210129
 Transform:
   m_ObjectHideFlags: 0
@@ -5179,7 +5180,7 @@ MonoBehaviour:
   Scale: 1
   Orientation: 0
   TileBiome: 0
-  TileType: 0
+  TileType: 2
   NeighboringTiles: []
 --- !u!1 &975717013 stripped
 GameObject:
@@ -6970,7 +6971,7 @@ MonoBehaviour:
   Scale: 1
   Orientation: 0
   TileBiome: 0
-  TileType: 0
+  TileType: 2
   NeighboringTiles: []
 --- !u!1 &1282275891 stripped
 GameObject:
@@ -7038,7 +7039,7 @@ MonoBehaviour:
   Scale: 1
   Orientation: 0
   TileBiome: 0
-  TileType: 0
+  TileType: 2
   NeighboringTiles: []
 --- !u!1 &1325346775 stripped
 GameObject:
@@ -7550,7 +7551,7 @@ MonoBehaviour:
   Scale: 1
   Orientation: 0
   TileBiome: 0
-  TileType: 0
+  TileType: 2
   NeighboringTiles: []
 --- !u!1 &1459467041
 GameObject:
@@ -8095,7 +8096,7 @@ MonoBehaviour:
   Scale: 1
   Orientation: 0
   TileBiome: 0
-  TileType: 0
+  TileType: 2
   NeighboringTiles: []
 --- !u!1 &1460880163 stripped
 GameObject:
@@ -8249,7 +8250,7 @@ MonoBehaviour:
   Scale: 1
   Orientation: 0
   TileBiome: 0
-  TileType: 0
+  TileType: 2
   NeighboringTiles: []
 --- !u!1 &1498969991 stripped
 GameObject:
@@ -10018,7 +10019,7 @@ MonoBehaviour:
   Scale: 1
   Orientation: 0
   TileBiome: 0
-  TileType: 0
+  TileType: 2
   NeighboringTiles: []
 --- !u!1 &1763137032 stripped
 GameObject:
@@ -10245,7 +10246,7 @@ MonoBehaviour:
   Scale: 1
   Orientation: 0
   TileBiome: 0
-  TileType: 0
+  TileType: 2
   NeighboringTiles: []
 --- !u!1 &1832701799 stripped
 GameObject:

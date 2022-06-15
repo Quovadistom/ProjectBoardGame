@@ -5,6 +5,7 @@ public class AppManager : GenericSingleton<AppManager>
 {
     public ResourcesSettings ResourcesSettings;
     public DebugSettings DebugSettings;
+    public TileAssets TileAssets;
 
     public event Action AppInitializationDone;
 
@@ -14,6 +15,7 @@ public class AppManager : GenericSingleton<AppManager>
 
         ScriptableObjectService.Instance.AddScriptableObject(ResourcesSettings);
         ScriptableObjectService.Instance.AddScriptableObject(DebugSettings);
+        ScriptableObjectService.Instance.AddScriptableObject(TileAssets);
 
         AppInitializationDone?.Invoke();
     }
