@@ -1,104 +1,76 @@
-using System;
-using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using UnityEngine;
-using static ResourcesSettings;
+
+public struct SpawnObject
+{
+    public SpawnObject(Vector3 position, Quaternion rotation, Vector3 scale, string objectType, int index)
+    {
+        Position = position;
+        Rotation = rotation;
+        Scale = scale;
+        ObjectType = objectType;
+        Index = index;
+    }
+
+    public Vector3 Position;
+    public Vector3 Scale;
+    public Quaternion Rotation;
+    public string ObjectType;
+    public int Index;
+}
+
+public struct SpawnCollection
+{
+    public SpawnCollection(Transform parentTransform)
+    {
+        ParentTransform = parentTransform;
+        SpawnObjects = new List<SpawnObject>();
+    }
+
+    public Transform ParentTransform;
+    public List<SpawnObject> SpawnObjects;
+}
 
 public class SpawnService : GenericSingleton<SpawnService>
 {
-    private ResourcesSettings m_resourcesSettings;
-    private bool m_creatingData = false;
-    private Queue<SpawnObject> m_roomPlacementInfoQueue = new Queue<SpawnObject>();
+    private Dictionary<string, SpawnCollection> m_groupedSpawnCollections = new Dictionary<string, SpawnCollection>();
+    private TileAssets m_tileAssets;
 
-    public SpawnService()
+    public override void Awake()
     {
-        m_resourcesSettings = ScriptableObjectService.Instance.GetScriptableObject<ResourcesSettings>();
-        //PhotonNetwork.NetworkingClient.EventReceived += OnEvent;
+        base.Awake();
+
+        //GenerationService.Instance.GenerationFinished += OnGenerationFinished;
     }
 
-    private void QueueObjectsToSend(IEnumerable<SpawnObject> values)
+    public void Start()
     {
-        foreach (var value in values)
-        {
-            m_roomPlacementInfoQueue.Enqueue(value);
-        }
+        m_tileAssets = ScriptableObjectService.Instance.GetScriptableObject<TileAssets>();
+        OnGenerationFinished();
     }
 
-    /*
-    public void SpawnGameObjects(IEnumerable<SpawnObject> values)
+    public SpawnCollection RegisterNewSpawnCollection(string spawnCollectionName, Transform spawnCollectionParent)
     {
-        if (PhotonNetwork.CurrentRoom.PlayerCount == 1)
-        {
-            m_creatingData = false;
-            QueueObjectsToSend(values);
-            m_creatingData = true;
+        SpawnCollection spawnCollection = new SpawnCollection(spawnCollectionParent);
+        m_groupedSpawnCollections.Add(spawnCollectionName, spawnCollection);
 
-            foreach (var objectToSpawn in values)
+        return spawnCollection;
+    }
+
+    private void OnGenerationFinished()
+    {
+        foreach (KeyValuePair<string, SpawnCollection> item in m_groupedSpawnCollections)
+        {
+            foreach (SpawnObject spawnObject in item.Value.SpawnObjects)
             {
-                GameObject gameObject = GetAsset(objectToSpawn);
-                if (gameObject != null)
-                    Instantiate(gameObject, objectToSpawn.Position, objectToSpawn.Rotation);
+                if (m_tileAssets.TryGetStaticObjectList(spawnObject.ObjectType, out WeightedItem<TileMetaData>[] list))
+                {
+                    GameObject gameObject = GameObject.Instantiate(list[spawnObject.Index].Item.gameObject);
+                    gameObject.transform.position = spawnObject.Position;
+                    gameObject.transform.rotation = spawnObject.Rotation;
+                    gameObject.transform.localScale = spawnObject.Scale;
+                }
             }
         }
     }
-
-    public const byte RoomPlacementInfoEventCode = 1;
-
-    public async void SendRoomPlacementInfoEvent()
-    {
-        while (!m_creatingData)
-            await Task.Delay(20);
-
-        while (m_roomPlacementInfoQueue.Count != 0)
-        {
-            SendObject(m_roomPlacementInfoQueue.Dequeue());
-            await Task.Delay(20);
-        }
-    }
-
-    private void SendObject(SpawnObject sendObject)
-    {
-        string json = JsonUtility.ToJson(sendObject);
-        object[] content = new object[] { json };
-        RaiseEventOptions raiseEventOptions = new RaiseEventOptions { Receivers = ReceiverGroup.Others };
-        PhotonNetwork.RaiseEvent(RoomPlacementInfoEventCode, content, raiseEventOptions, SendOptions.SendReliable);
-    }
-
-    public void OnEvent(EventData photonEvent)
-    {
-        byte eventCode = photonEvent.Code;
-
-        if (eventCode == RoomPlacementInfoEventCode)
-        {
-            object[] data = (object[])photonEvent.CustomData;
-            string json = (string)data[0];
-            SpawnObject sendObject = JsonUtility.FromJson<SpawnObject>(json);
-            SpawnRecievedGameObject(sendObject);
-        }
-    }
-
-    internal void SpawnRecievedGameObject(SpawnObject sendObject)
-    {
-        GameObject gameObject = GetAsset(sendObject);
-        if (gameObject != null)
-            Instantiate(gameObject, sendObject.Position, sendObject.Rotation);
-    }
-
-    private GameObject GetAsset(SpawnObject spawnObject)
-    {
-        Theme theme = m_resourcesSettings.GetTheme();
-
-        WeightedItem<GameObject>[] objectList = m_resourcesSettings.GetCorrectObjectList(spawnObject, theme);
-
-        if (objectList == null) { return null; }
-        return objectList[spawnObject.Index].Item;
-    }
-
-    public void Dispose()
-    {
-        PhotonNetwork.NetworkingClient.EventReceived -= OnEvent;
-    }
-    */
 }

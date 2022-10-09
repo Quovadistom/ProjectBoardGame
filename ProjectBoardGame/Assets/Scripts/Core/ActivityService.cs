@@ -27,7 +27,7 @@ public class ActivityService : GenericSingleton<ActivityService>
         }
     }
 
-    public TileActivity GetRandomActivity(TileType tileType, TileBiome tileBiome)
+    public TileActivity GetRandomActivity(TileType tileType, TileBiome tileBiome, SpawnCollection spawnCollection)
     {
         Type type = tileType switch
         {
@@ -37,6 +37,6 @@ public class ActivityService : GenericSingleton<ActivityService>
             _ => m_defaultActivityTypes.GetRandomItem(),
         };
 
-        return (TileActivity) Activator.CreateInstance(type, tileType, tileBiome);
+        return (TileActivity) Activator.CreateInstance(type, spawnCollection, tileType, tileBiome);
     }
 }

@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-public class GameBoard : MonoBehaviour
+public class GameBoardInstance : MonoBehaviour
 {
     public event Action<bool> DisableInteractors;
 
     private List<Tile> m_tiles = new List<Tile>();
+    private SpawnCollection m_spawnCollection;
 
     private bool m_initialized
     {
@@ -21,11 +22,7 @@ public class GameBoard : MonoBehaviour
     public void Awake()
     {
         AppManager.Instance.AppInitializationDone += OnAppInitializatonDone;
-    }
-
-    public void OnDestroy()
-    {
-        AppManager.Instance.AppInitializationDone -= OnAppInitializatonDone;
+        m_spawnCollection = SpawnService.Instance.RegisterNewSpawnCollection("GameBoard", this.transform);
     }
 
     public void DisableAllInteractors()
@@ -37,18 +34,22 @@ public class GameBoard : MonoBehaviour
     {
         Tile[] tiles = GetComponentsInChildren<Tile>();
 
-        foreach (Tile tile in tiles)
+        for (int i = 0; i < tiles.Length; i++)
         {
-            m_tiles.Add(tile);
-            tile.CreatePawnInteractor();
+            Tile selectedTile = tiles[i];
+            m_tiles.Add(selectedTile);
+            selectedTile.Initialize($"Tile-{i}");
         }
 
         Tile orientationTile = m_tiles.FirstOrDefault(tile => tile.Orientation != Orientation.UNDEFINED);
-        orientationTile.InitializeTile(orientationTile.Orientation);
+        orientationTile.SetOrientation(orientationTile.Orientation);
         SetOrientation(orientationTile);
 
         if (m_initialized)
+        {
             Debug.Log("Board succesfully Initialized.");
+            GenerationService.Instance.StartGeneration(m_tiles);
+        }
         else
             Debug.LogWarning("Something went wrong while initializing the board.");
     }
@@ -65,9 +66,9 @@ public class GameBoard : MonoBehaviour
             if (tile.Orientation == Orientation.UNDEFINED)
             {
                 if (orientationTile.Orientation == Orientation.LEFT)
-                    tile.InitializeTile(Orientation.RIGHT);
+                    tile.SetOrientation(Orientation.RIGHT);
                 else if (orientationTile.Orientation == Orientation.RIGHT)
-                    tile.InitializeTile(Orientation.LEFT);
+                    tile.SetOrientation(Orientation.LEFT);
 
                 SetOrientation(tile);
             }

@@ -4,7 +4,16 @@ using UnityEngine;
 
 public class FlatActivity : TileActivity
 {
-    public FlatActivity(TileType tileType, TileBiome tileBiome, TileObjectOptions tileObjectOptions) : base(tileType, tileBiome, tileObjectOptions)
+    public FlatActivity(
+        SpawnCollection spawnCollection,
+        TileType tileType,
+        TileBiome tileBiome,
+        ActivityObjectOptions activityObjectOptions) : base(
+            spawnCollection,
+            tileType,
+            tileBiome,
+            TileObjectOptions.FLAT,
+            activityObjectOptions)
     {
     }
 }

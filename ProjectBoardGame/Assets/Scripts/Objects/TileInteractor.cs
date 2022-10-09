@@ -15,8 +15,8 @@ public class TileInteractor : MonoBehaviour
 
     private void OnSelectEntered(SelectEnterEventArgs arg0)
     {
-        GetComponentInParent<Tile>().CreateActivity();
-        GameObject.FindObjectOfType<GameBoard>().gameObject.SetActive(false);
+        //GetComponentInParent<Tile>().CreateActivity();
+        //GameObject.FindObjectOfType<GameBoard>().gameObject.SetActive(false);
     }
 
     private void OnSelectExited(SelectExitEventArgs arg0)

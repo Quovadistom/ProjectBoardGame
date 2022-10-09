@@ -19,23 +19,13 @@ public class HandPresence : MonoBehaviour
     private UnityEngine.XR.InputDevice targetDevice;
     private GameObject spawnedController;
     private GameObject m_spawnedHandModel;
-    private bool triggerTouched;
-    private float triggerLerp, triggerValue, gripValue, thumbRestLerp;
+    private float triggerValue, gripValue, thumbRestLerp;
 
     public Animator HandAnimator { get; set; }
 
     void Start()
     {
         TryInitialize();
-
-        TriggerTouchedReference.action.performed += OnTriggerTouched;
-        TriggerTouchedReference.action.canceled += OnTriggerTouchedCanceled;
-    }
-
-    private void OnDestroy()
-    {
-        TriggerTouchedReference.action.performed -= OnTriggerTouched;
-        TriggerTouchedReference.action.canceled -= OnTriggerTouchedCanceled;
     }
 
     void TryInitialize()
@@ -126,16 +116,5 @@ public class HandPresence : MonoBehaviour
                 UpdateHandAnimation();
             }
         }
-    }
-
-    private void OnTriggerTouchedCanceled(InputAction.CallbackContext obj)
-    {
-        triggerTouched = false;
-        triggerLerp = gripValue;
-    }
-
-    private void OnTriggerTouched(InputAction.CallbackContext obj)
-    {
-        triggerTouched = true;
     }
 }

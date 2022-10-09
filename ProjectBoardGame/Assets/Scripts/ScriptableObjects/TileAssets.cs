@@ -10,45 +10,50 @@ public class TileAssets : ScriptableObject
     public XRSocketInteractor XRSocketInteractor;
 
     public TileMetaData BaseTile;
-
     public TileMetaData SingleSpawn;
     public TileMetaData LowDensitySpawn;
     public TileMetaData HighDensitySpawn;
 
-    public TileObjects[] TileObjects;
+    public StaticTileObjects[] StaticTileObjects;
 
-    public GameObject GetTileObjectFromArray(TileObject tileObject)
+    public bool TryGetStaticObjectList(string tileOption, out WeightedItem<TileMetaData>[] weightedItems)
     {
-        TileObjects list = TileObjects.FirstOrDefault(x => x.TileObjectType == tileObject);
-        return list.TileObjectList.GetRandomWeightedItem();
+        AllSpawnOptions option = (AllSpawnOptions) Enum.Parse(typeof(AllSpawnOptions), tileOption);
+        weightedItems = StaticTileObjects.FirstOrDefault(type => type.TileObjectType == option).TileObjectList;
+        return weightedItems != null;
+    }
+
+    internal int TryGetRandomStaticObject(string tileOption, out TileMetaData tileMetaData)
+    {
+        int index = -1;
+        tileMetaData = null;
+
+        AllSpawnOptions option = (AllSpawnOptions)Enum.Parse(typeof(AllSpawnOptions), tileOption);
+        WeightedItem<TileMetaData>[] list = StaticTileObjects.FirstOrDefault(type => type.TileObjectType == option).TileObjectList;
+
+        index = list.GetRandomIndexWeighted();
+        if (index >= 0)
+            tileMetaData = list[index].Item;
+
+        return index;
     }
 }
 
-[Flags]
-public enum TileObjectOptions
+public enum AllSpawnOptions
 {
-    NONE = 0,
-    HOUSE = 1,
-    CLIFFBOTTOM = 2,
-    CLIFFTOP = 4,
-    NPC = 8,
-    COLLECTIBLE = 16
-}
-
-public enum TileObject
-{
-    NONE = 0,
-    HOUSE = 1,
-    CLIFFBOTTOM = 2,
-    CLIFFTOP = 4,
-    NPC = 8,
-    COLLECTIBLE = 16
+    CLIFFBOTTOM,
+    CLIFFTOP,
+    FLAT,
+    HOUSE,
+    NPC,
+    NAILS,
+    FRUIT
 }
 
 [Serializable]
-public class TileObjects
+public class StaticTileObjects
 {
-    public TileObject TileObjectType;
+    public AllSpawnOptions TileObjectType;
 
-    public WeightedItem<GameObject>[] TileObjectList;
+    public WeightedItem<TileMetaData>[] TileObjectList;
 }

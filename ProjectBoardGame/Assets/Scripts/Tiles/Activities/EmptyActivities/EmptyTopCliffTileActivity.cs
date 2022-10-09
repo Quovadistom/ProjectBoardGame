@@ -1,6 +1,13 @@
 public class EmptyTopCliffTileActivity : TopCliffTileActivity
 {
-    public EmptyTopCliffTileActivity(TileType tileType, TileBiome tileBiome) : base(tileType, tileBiome, TileObjectOptions.NONE)
+    public EmptyTopCliffTileActivity(
+        SpawnCollection spawnCollection,
+        TileType tileType,
+        TileBiome tileBiome) : base(
+            spawnCollection,
+            tileType,
+            tileBiome,
+            ActivityObjectOptions.NONE)
     {
     }
 }

@@ -12,16 +12,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 609bc182e2aad5b4d97c45d4767d00cb, type: 3}
   m_Name: TileAssets
   m_EditorClassIdentifier: 
+  XRSocketInteractor: {fileID: 7713339228809298723, guid: 37463fac4d5f1264faae666697d42c0f, type: 3}
   BaseTile: {fileID: 8538687755580214155, guid: ea2b209f257dff4459e324b091a6acd3, type: 3}
   SingleSpawn: {fileID: 9138933669954711663, guid: 8fe545bee38a67840a72934da9acdb07, type: 3}
   LowDensitySpawn: {fileID: -8033214789723353666, guid: a1815e86cd5883a4885845743f62719b, type: 3}
   HighDensitySpawn: {fileID: 7786382622492482141, guid: 239726b6c115e664681b143b8f4cba1c, type: 3}
-  TileObjects:
+  StaticTileObjects:
+  - TileObjectType: 3
+    TileObjectList:
+    - Item: {fileID: -8020653148859432194, guid: 6737856b5032a7549a225bf7f4f96085, type: 3}
+      Weight: 100
+  - TileObjectType: 0
+    TileObjectList:
+    - Item: {fileID: 2328896097620013890, guid: 26dfa2e409a2df14fa779e082527f7d1, type: 3}
+      Weight: 100
   - TileObjectType: 1
-    TileObjectList: []
+    TileObjectList:
+    - Item: {fileID: 2328896097620013890, guid: b3e9717f5d88b954f8af601c9dd9ebfb, type: 3}
+      Weight: 100
   - TileObjectType: 2
-    TileObjectList: []
-  - TileObjectType: 4
-    TileObjectList: []
-  - TileObjectType: 8
-    TileObjectList: []
+    TileObjectList:
+    - Item: {fileID: 2328896097620013890, guid: 2452c5a6bedfc414fb91a8288e8b5a64, type: 3}
+      Weight: 100

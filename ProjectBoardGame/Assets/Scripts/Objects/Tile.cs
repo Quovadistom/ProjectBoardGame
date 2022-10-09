@@ -26,21 +26,24 @@ public class Tile : MonoBehaviour
     public TileBiome TileBiome;
     public TileType TileType;
 
+    public string TileID { get; private set; }
     public Tile[] NeighboringTiles { get; set; }
     public bool IsInitialized { get; private set; } = false;
     public TileActivity TileActivity { get; private set; } = null;
 
     private XRSocketInteractor m_xrSocketInteractor;
+    private SpawnCollection m_spawnCollection;
 
     public float DistanceToOtherTile(Vector2 closeTilePosition)
     {
         return Vector2.Distance(new Vector2(transform.localPosition.x, transform.localPosition.z), closeTilePosition);
     }
 
-    public void InitializeTile(Orientation orientation)
+    public void Initialize(string tileID)
     {
-        Orientation = orientation;
-        IsInitialized = true;
+        TileID = tileID;
+        m_spawnCollection = SpawnService.Instance.RegisterNewSpawnCollection(tileID, this.transform);
+        CreatePawnInteractor();
     }
 
     public void CreatePawnInteractor()
@@ -51,16 +54,17 @@ public class Tile : MonoBehaviour
         m_xrSocketInteractor = GameObject.Instantiate(m_tileAssets.XRSocketInteractor, this.transform);
         m_xrSocketInteractor.transform.localPosition = positionOffset;
         m_xrSocketInteractor.transform.localScale = new Vector3(m_xrSocketInteractor.transform.localScale.x, m_xrSocketInteractor.transform.localScale.y / this.transform.localScale.y, m_xrSocketInteractor.transform.localScale.z);
-
     }
 
-    public void CreateActivity()
+    public void SetOrientation(Orientation orientation)
     {
-        TileActivity = ActivityService.Instance.GetRandomActivity(TileType, TileBiome);
+        Orientation = orientation;
+        IsInitialized = true;
     }
 
-    private void OnDestroy()
+    public ActivityInfo CreateActivity()
     {
-        //m_tileInteractor.SocketInteractor.selectEntered.RemoveListener(OnTileSelected);
+        TileActivity = ActivityService.Instance.GetRandomActivity(TileType, TileBiome, m_spawnCollection);
+        return TileActivity.GetTileActivityInfo();
     }
 }

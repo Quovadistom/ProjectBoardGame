@@ -7,8 +7,27 @@ public class FetchActivity : FlatActivity
 {
     public override Vector3 PlayerSpawnLocation { get => base.PlayerSpawnLocation; set => base.PlayerSpawnLocation = value; }
 
-    public FetchActivity(TileType tileType, TileBiome tileBiome) : base(tileType, tileBiome, TileObjectOptions.HOUSE | TileObjectOptions.NPC | TileObjectOptions.COLLECTIBLE)
+    private int AmountOfRequiredItems = 0;
+
+    public FetchActivity(
+        SpawnCollection spawnCollection,
+        TileType tileType,
+        TileBiome tileBiome) : base(
+            spawnCollection,
+            tileType,
+            tileBiome,
+            ActivityObjectOptions.HOUSE | ActivityObjectOptions.NPC | ActivityObjectOptions.COLLECTIBLE)
     {
+        AmountOfRequiredItems = UnityEngine.Random.Range(5, 31);
+    }
+
+    public override ActivityInfo GetTileActivityInfo()
+    {
+        Array values = Enum.GetValues(typeof(CollectibleObject));
+        int randomInt = UnityEngine.Random.Range(1, values.Length);
+        CollectibleObject randomCollectible = (CollectibleObject)values.GetValue(randomInt);
+
+        return new ActivityInfo(randomCollectible, AmountOfRequiredItems);
     }
 
     public override void StartTileActivity()

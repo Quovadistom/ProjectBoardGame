@@ -149,7 +149,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &10984242 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7798904656168390943, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -171,7 +170,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &17727607
 GameObject:
   m_ObjectHideFlags: 0
@@ -241,7 +239,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 1
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &42675450 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4365306695746786280, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -263,7 +260,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &65568955 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -8583069811440616934, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -285,7 +281,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &73184943 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3637886494469343528, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -307,7 +302,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 0
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &75010615 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7697748121778176413, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -329,7 +323,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 0
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &83514774 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6798749180961518468, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -351,7 +344,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &92154164 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -1044204415726282453, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -373,7 +365,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &94029017 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -1660473575491807916, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -395,7 +386,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 1
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &101086971 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7093690084907775222, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -417,7 +407,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &104696569 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4864138673109702260, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -439,7 +428,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 0
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &113386642 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -1977930210183815847, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -461,7 +449,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &115741638 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8483737811526406764, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -483,7 +470,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &121312264 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2534775814738547895, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -505,7 +491,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &121535064 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5181966078051205846, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -527,7 +512,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 0
   TileType: 2
-  NeighboringTiles: []
 --- !u!1 &125365078 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6155534867217020533, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -549,7 +533,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &125741810 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 915452728687775372, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -571,7 +554,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &131258328 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2058286824263968530, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -593,7 +575,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &134663050 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1881130192472977485, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -615,7 +596,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 0
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &153707013 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -6108728202600823907, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -637,7 +617,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &156614811 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -5212275641431006035, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -659,7 +638,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &161332894 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 314388813559452659, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -681,7 +659,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &165001932 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5415220508443486820, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -703,7 +680,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 1
   TileType: 1
-  NeighboringTiles: []
 --- !u!1001 &168338735
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -786,7 +762,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &169368003 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -5334520173272054184, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -808,7 +783,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 0
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &171844988 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: d469ad4b9f5afd94cb3cf5fa74c98e80, type: 3}
@@ -904,7 +878,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 0
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &188575461 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -1441257881801447, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -926,7 +899,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &192862087 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 957927281556780995, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -948,7 +920,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &211163075 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6173344772876024613, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -970,7 +941,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &212339413 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 329728812264440394, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -992,7 +962,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 1
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &214693142 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6719906758298046788, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -1014,7 +983,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 0
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &216601631 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8685942416146643551, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -1036,7 +1004,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 0
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &217600588 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8645276646757308593, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -1058,7 +1025,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &226703091 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7347125198676625316, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -1080,7 +1046,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 2
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &232088448 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: d48f629adcfbee9449149bd986116f93, type: 3}
@@ -1126,7 +1091,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 0
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &245636331 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8337117962823165362, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -1148,7 +1112,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 1
   TileType: 1
-  NeighboringTiles: []
 --- !u!1 &247909787 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 424572971542995224, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -1170,7 +1133,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 1
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &253984140 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7285912829723274478, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -1192,7 +1154,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &256089922 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -6197809154575668522, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -1214,7 +1175,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 1
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &264677606 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -1144815279298850831, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -1236,7 +1196,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &269780617 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1423911408391080217, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -1258,7 +1217,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &285002548 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -1297,7 +1255,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 1
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &295707142 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -587723481862315812, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -1319,7 +1276,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 0
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &307647086 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -5935696369859758454, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -1341,7 +1297,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &315256286 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5105933373831540079, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -1363,7 +1318,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &321001321 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3990144361690425325, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -1385,7 +1339,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &329037015 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6902193547661073763, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -1407,7 +1360,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &329692513 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -8595191165205807079, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -1429,7 +1381,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 0
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &338998865
 GameObject:
   m_ObjectHideFlags: 0
@@ -1548,7 +1499,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 1
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &342036446 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -143450731354461326, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -1570,7 +1520,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &343911784 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 111980042719961773, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -1592,7 +1541,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1001 &346155583
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1675,7 +1623,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 0
   TileType: 2
-  NeighboringTiles: []
 --- !u!1 &352381680 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -4997888627375311705, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -1697,7 +1644,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 2
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &354890067
 GameObject:
   m_ObjectHideFlags: 0
@@ -1918,7 +1864,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 2
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &358436015 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2560698527828344719, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -1940,7 +1885,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &358660349
 GameObject:
   m_ObjectHideFlags: 0
@@ -2161,7 +2105,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 0
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &381334765 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -1378362320911620304, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -2183,7 +2126,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 0
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &384916333 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -5135268787357549463, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -2205,7 +2147,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!4 &387446172 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3621981467535291324, guid: 6c2509c76b281144cb0099fc45f17a09, type: 3}
@@ -2346,7 +2287,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &406647858 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -4265701192295996539, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -2368,7 +2308,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 2
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &414475978 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -6125729893141960495, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -2390,7 +2329,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &416514990 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7684431770109505186, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -2412,7 +2350,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 1
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &420370436 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3045600228369335861, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -2434,7 +2371,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &421401266 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -4158062627008348316, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -2456,7 +2392,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 0
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &441412982 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -5718320834491085656, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -2478,7 +2413,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 0
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &442934945 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3663365559407001816, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -2500,7 +2434,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 0
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &449627672 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -963532598928361982, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -2522,7 +2455,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 0
   TileType: 2
-  NeighboringTiles: []
 --- !u!1 &460075961 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3457094521010601807, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -2544,7 +2476,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 1
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &464713983 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5012970668448796370, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -2566,7 +2497,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1001 &472978000
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2645,7 +2575,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &480171023 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -6151724405158082215, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -2667,7 +2596,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 2
   TileType: 0
-  NeighboringTiles: []
 --- !u!1001 &490526702
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2750,7 +2678,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 0
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &500366613 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8425020460384018687, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -2772,7 +2699,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 1
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &500851859 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -3801867988686745637, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -2794,7 +2720,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 2
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &502460875 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4079488251499931001, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -2816,7 +2741,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &507202019 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9032337372981780099, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -2838,7 +2762,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 1
   TileType: 1
-  NeighboringTiles: []
 --- !u!1 &522827783 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -5576540203578684749, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -2860,7 +2783,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 2
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &526514870 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1417178921974767798, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -2882,7 +2804,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &532638972 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7930036595501573900, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -2904,7 +2825,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 0
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &538979786 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 268590700658582419, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -2926,7 +2846,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &540403952 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -3929902493829038201, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -2948,7 +2867,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 2
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &541359776 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1234075837647446125, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -2970,7 +2888,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &542527508 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2913033520948097255, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -2992,7 +2909,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &552907546 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -3891158277770494701, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -3014,7 +2930,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 2
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &554389440 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4136175233922929353, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -3036,7 +2951,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 1
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &559658287 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -8975185914246011719, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -3058,7 +2972,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 0
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &563555850 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7993673550622920271, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -3080,7 +2993,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &565470103 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -5479600386392386764, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -3102,7 +3014,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 2
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &566426649 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7349165237942732388, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -3124,7 +3035,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 1
   TileType: 1
-  NeighboringTiles: []
 --- !u!1 &574284179 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2534539933292983388, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -3146,7 +3056,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 0
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &576446906 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -3834293674787465566, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -3168,7 +3077,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &588627975 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -253928869959486338, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -3190,7 +3098,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 1
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &611121980 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8827295884451413581, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -3212,7 +3119,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &621071637 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7873176802358433957, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -3234,7 +3140,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 1
   TileType: 0
-  NeighboringTiles: []
 --- !u!4 &624964880 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d48f629adcfbee9449149bd986116f93, type: 3}
@@ -3261,7 +3166,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &632214009 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 236238671108877167, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -3283,7 +3187,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &632550795 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3631306551881775141, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -3305,7 +3208,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &649160339 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4555068741225116881, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -3327,7 +3229,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 0
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &661064708 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -1624188349577763889, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -3349,7 +3250,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &661748054 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -1530049313931405321, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -3371,7 +3271,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &662564288 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5626628886013719018, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -3393,7 +3292,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 2
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &664961674 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2502084876359203124, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -3415,7 +3313,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &670829474 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9205723098558207011, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -3437,7 +3334,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 1
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &681139029 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -4966512762853279034, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -3459,7 +3355,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &687547072 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -5663329956616522209, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -3481,7 +3376,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 2
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &691619993 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7168497157727476951, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -3503,7 +3397,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 1
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &693905777 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -6250869298904001102, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -3525,7 +3418,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &696239182 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5728417120552426563, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -3547,7 +3439,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &698574112 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5905902643900404842, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -3569,7 +3460,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 1
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &701809481 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4774137303754575208, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -3591,7 +3481,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &708529173 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: d48f629adcfbee9449149bd986116f93, type: 3}
@@ -3653,7 +3542,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 0
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &712712859 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 501769540310473038, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -3675,7 +3563,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 2
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &719295732 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3662434370892328753, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -3697,7 +3584,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 0
   TileType: 2
-  NeighboringTiles: []
 --- !u!1 &724263537 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4757153314511820305, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -3719,7 +3605,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &727485563
 GameObject:
   m_ObjectHideFlags: 0
@@ -3778,7 +3663,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 0
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &730557355
 GameObject:
   m_ObjectHideFlags: 0
@@ -3837,7 +3721,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 0
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &741309868 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7812736396518496599, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -3859,7 +3742,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &745432229 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2072224454672439284, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -3881,7 +3763,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 1
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &759061809 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 118059396703077654, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -3903,7 +3784,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 1
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &760748836 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -3101084358033807340, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -3925,7 +3805,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &778210127
 GameObject:
   m_ObjectHideFlags: 0
@@ -3955,9 +3834,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c97b8d7107c13448ac00824e7dae042, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ResourcesSettings: {fileID: 11400000, guid: 48aac8e7a2fbf1c49ae2d46f45608a01, type: 2}
-  DebugSettings: {fileID: 11400000, guid: 7655c0a452a1adb40ae41c45ca568ff5, type: 2}
-  TileAssets: {fileID: 11400000, guid: 0debe223b36e3694098945bf91e40d2d, type: 2}
+  ScriptableObjects:
+  - {fileID: 11400000, guid: 0debe223b36e3694098945bf91e40d2d, type: 2}
+  - {fileID: 11400000, guid: 7655c0a452a1adb40ae41c45ca568ff5, type: 2}
+  - {fileID: 11400000, guid: 48aac8e7a2fbf1c49ae2d46f45608a01, type: 2}
 --- !u!4 &778210129
 Transform:
   m_ObjectHideFlags: 0
@@ -3994,7 +3874,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &811044717 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7581110337162740785, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -4016,7 +3895,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &816134561 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 472899712012502961, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -4038,7 +3916,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 2
   TileType: 0
-  NeighboringTiles: []
 --- !u!1001 &816516156
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4133,7 +4010,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &835894034 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3830246557925842914, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -4155,7 +4031,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 1
   TileType: 1
-  NeighboringTiles: []
 --- !u!1 &839117783 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -8158417263598704191, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -4177,7 +4052,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &843174157 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -4530494117179878885, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -4199,7 +4073,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 2
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &857095144 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4486335406884315050, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -4221,7 +4094,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 1
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &859060870 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1736414357412316835, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -4243,7 +4115,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 0
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &867287350 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4673325711341595884, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -4265,7 +4136,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 0
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &871098195 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4552570169532884454, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -4287,7 +4157,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &872026203
 GameObject:
   m_ObjectHideFlags: 0
@@ -4423,7 +4292,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &875837596 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -6241625785484998357, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -4445,7 +4313,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &880658078 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2115782534670674371, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -4467,7 +4334,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 1
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &881495737 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8600224940023942069, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -4489,7 +4355,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &889366498 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 571852813317374360, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -4511,7 +4376,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 0
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &894498608 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4338171323673265343, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -4533,7 +4397,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 1
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &897788112 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5812393808953404591, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -4555,7 +4418,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 0
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &898645812 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3795612575896676228, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -4577,7 +4439,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 0
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &898698839 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 213854287774163121, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -4599,7 +4460,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &898825700 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7362668300851586901, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -4621,7 +4481,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &904275190 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 738598318295334835, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -4643,7 +4502,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &910309512 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -6637239049592750577, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -4665,7 +4523,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &910515428 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -867190503169889828, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -4687,7 +4544,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 1
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &913943879 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7786153692911252930, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -4709,7 +4565,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 0
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &920332264
 GameObject:
   m_ObjectHideFlags: 0
@@ -4961,7 +4816,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 2
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &932328914 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4666360330382742795, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -4983,7 +4837,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 0
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &934876704 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -318915542627708643, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -5005,7 +4858,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &936010238 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 34869837201082717, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -5027,7 +4879,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &938437320 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8263318186163116922, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -5049,7 +4900,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 2
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &938637191 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9066411681030525047, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -5071,7 +4921,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 2
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &948112820 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6797867131037440771, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -5093,7 +4942,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &955088873 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -3546576404642224875, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -5115,7 +4963,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &959617385 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3287102730370309621, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -5137,7 +4984,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &964233323 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8706364026261802064, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -5159,7 +5005,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &974348105 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6921682543734248445, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -5181,7 +5026,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 0
   TileType: 2
-  NeighboringTiles: []
 --- !u!1 &975717013 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8333701391327159790, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -5203,7 +5047,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 1
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &981482863 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -8132037461435429121, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -5225,7 +5068,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &986749262 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 403628483933964100, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -5247,7 +5089,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &999329684
 GameObject:
   m_ObjectHideFlags: 0
@@ -5802,7 +5643,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1015515313 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2369426672915654189, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -5824,7 +5664,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1030309364 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -6622836410009982247, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -5846,7 +5685,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!114 &1032448667 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3621981467535291327, guid: ddc38db09f9124241b4b4e9b2b9831eb, type: 3}
@@ -5910,7 +5748,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1038838137 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9096917631282002605, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -5932,7 +5769,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1050842655 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2102879218390211658, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -5954,7 +5790,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1063336501 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -5423128829224039602, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -5976,7 +5811,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1066840197 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2679340732444484875, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -5998,7 +5832,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 0
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1070894405 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2076630059988038866, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -6020,7 +5853,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 1
   TileType: 1
-  NeighboringTiles: []
 --- !u!1 &1075126037 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -5650329259898381458, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -6042,7 +5874,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 0
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1083896605 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -850977019496526857, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -6064,7 +5895,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 0
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1085897213 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -4302183518381814628, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -6086,7 +5916,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 2
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1089323789 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2809073576748147581, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -6108,7 +5937,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 1
   TileType: 1
-  NeighboringTiles: []
 --- !u!1 &1092573087 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8511669896578632030, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -6130,7 +5958,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1096448420 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -8739682718874390348, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -6152,7 +5979,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 2
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1096612633 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2280410513087099525, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -6174,7 +6000,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 0
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1112438093 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2871193801220424390, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -6196,7 +6021,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 0
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1115370884 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3475794486560077733, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -6218,7 +6042,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 0
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1119418606
 GameObject:
   m_ObjectHideFlags: 0
@@ -6376,7 +6199,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!114 &1124106931 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3621981467535291327, guid: 6c2509c76b281144cb0099fc45f17a09, type: 3}
@@ -6409,7 +6231,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 2
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1151951192 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7729755554355920148, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -6431,7 +6252,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 2
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1156199559 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -6211739177721554214, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -6453,7 +6273,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 1
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1164736122
 GameObject:
   m_ObjectHideFlags: 0
@@ -6506,7 +6325,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 0
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1168968624 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -3178946135730797133, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -6528,7 +6346,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 0
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1172848531 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -4583393551273765297, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -6550,7 +6367,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 1
   TileType: 1
-  NeighboringTiles: []
 --- !u!1 &1174942190 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4932933219818761540, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -6572,7 +6388,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 1
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1175806929 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -8453062640102737026, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -6594,7 +6409,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1188025586 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2400133456001129805, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -6616,7 +6430,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 2
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1206699306 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -299365102259955477, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -6638,7 +6451,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1206719602 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -984030173013970974, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -6660,7 +6472,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1224968361 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -5832970337699613629, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -6682,7 +6493,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 0
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1226736916 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2021736280887248265, guid: 37463fac4d5f1264faae666697d42c0f, type: 3}
@@ -6840,7 +6650,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 2
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1246415790 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -3828994920292362113, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -6862,7 +6671,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1255832852 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4326423560231878821, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -6884,7 +6692,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 2
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1267812984 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -8690170114484881663, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -6906,7 +6713,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 2
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1269150764 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8198092050925166630, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -6928,7 +6734,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 2
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1276824665 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -3729381392296412368, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -6950,7 +6755,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 1
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1281038016 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7736740604871638113, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -6972,7 +6776,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 0
   TileType: 2
-  NeighboringTiles: []
 --- !u!1 &1282275891 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -4002799422362432528, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -6994,7 +6797,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 0
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1289114347 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: d48f629adcfbee9449149bd986116f93, type: 3}
@@ -7040,7 +6842,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 0
   TileType: 2
-  NeighboringTiles: []
 --- !u!1 &1325346775 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -8243518630912943585, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -7062,7 +6863,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 1
   TileType: 1
-  NeighboringTiles: []
 --- !u!1 &1339345315 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -1956138700190319293, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -7084,7 +6884,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1001 &1362241639
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7167,7 +6966,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 1
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1387269164 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -952475663874871477, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -7189,7 +6987,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 1
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1387337201 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -9075576152367047080, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -7211,7 +7008,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1398287526 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6795691472047434999, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -7233,7 +7029,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 2
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1399862816 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6354770128190134254, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -7255,7 +7050,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1001 &1401991016
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7486,7 +7280,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 2
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1428595890 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -4034035407746315938, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -7508,7 +7301,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 2
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1443993075 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -1818117640848053876, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -7530,7 +7322,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 1
   TileType: 1
-  NeighboringTiles: []
 --- !u!1 &1446717794 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -1687879298898259913, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -7552,7 +7343,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 0
   TileType: 2
-  NeighboringTiles: []
 --- !u!1 &1459467041
 GameObject:
   m_ObjectHideFlags: 0
@@ -8097,7 +7887,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 0
   TileType: 2
-  NeighboringTiles: []
 --- !u!1 &1460880163 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -1306594101524126184, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -8119,7 +7908,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 2
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1474807812
 GameObject:
   m_ObjectHideFlags: 0
@@ -8185,7 +7973,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 1
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1479450096 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -274011376101170186, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -8207,7 +7994,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1491895915 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9084171605556148824, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -8229,7 +8015,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 0
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1497279639 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2004653857136637365, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -8251,7 +8036,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 0
   TileType: 2
-  NeighboringTiles: []
 --- !u!1 &1498969991 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -624042250431650890, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -8273,7 +8057,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1505397205 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -3632261637464406522, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -8295,7 +8078,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 0
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1507936846 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6099984579308539711, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -8317,7 +8099,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1513915707
 GameObject:
   m_ObjectHideFlags: 0
@@ -8547,7 +8328,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1533287743 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -8655179361674979251, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -8569,7 +8349,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1537413884 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -4514143969523949811, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -8591,7 +8370,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1544379446 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4770434668015609851, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -8613,7 +8391,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 1
   TileType: 1
-  NeighboringTiles: []
 --- !u!1 &1546979096 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 973293546669406763, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -8635,7 +8412,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 2
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1550556448 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2519896519544496939, guid: da32018966e5ce141b780e800ae3b7fc, type: 3}
@@ -8667,7 +8443,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 1
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1571009787 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7382000949517918041, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -8689,7 +8464,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1588129939 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3876569757122425501, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -8711,7 +8485,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1591815348 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -5797677051900828443, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -8733,7 +8506,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1600051137 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5684896854038329755, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -8755,7 +8527,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1610651208 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8223149605422082961, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -8777,7 +8548,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!4 &1615784067 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3621981467535291324, guid: ddc38db09f9124241b4b4e9b2b9831eb, type: 3}
@@ -8804,7 +8574,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 0
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1633824634 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7199116307334308580, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -8826,7 +8595,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 0
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1635826678 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -4708038923902828202, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -8848,7 +8616,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1640542086 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6950312928810278696, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -8870,7 +8637,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 0
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1642074721 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -5384859417465685336, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -8892,7 +8658,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1652253804 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3598841766661692910, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -8914,7 +8679,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 0
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1653840649 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2393612009539304232, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -8936,7 +8700,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1662697310 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -5825558413799135666, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -8958,7 +8721,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1665089569 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4253933147978570173, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -8980,7 +8742,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 1
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1665440356
 GameObject:
   m_ObjectHideFlags: 0
@@ -9519,7 +9280,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 1
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1683268698 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -8489719736075340336, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -9541,7 +9301,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 0
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1684361367
 GameObject:
   m_ObjectHideFlags: 0
@@ -9678,7 +9437,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 1
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1686459497 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5836487198974392727, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -9700,7 +9458,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 1
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1688758709 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6945243909333393885, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -9722,7 +9479,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 0
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1696649401 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1632651911090540068, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -9744,7 +9500,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 2
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1711582827 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8958833119901884280, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -9766,7 +9521,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1001 &1712408108
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9853,7 +9607,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 2
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1716197456 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5089074373680089532, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -9875,7 +9628,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1739598387 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4240278038828447173, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -9897,7 +9649,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1001 &1741612163
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9976,7 +9727,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 1
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1749785012 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3168352540840403494, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -9998,7 +9748,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1750873615 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -3618421756246048748, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -10020,7 +9769,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 0
   TileType: 2
-  NeighboringTiles: []
 --- !u!1 &1763137032 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7536265198312013018, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -10042,7 +9790,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 0
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1766907244
 GameObject:
   m_ObjectHideFlags: 0
@@ -10098,7 +9845,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1770168873 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3518485077224817337, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -10120,7 +9866,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 0
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1771570787 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8197163106186838879, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -10142,7 +9887,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1787746964 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8516424260231535609, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -10164,7 +9908,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 0
   TileType: 0
-  NeighboringTiles: []
 --- !u!1001 &1811568316
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10247,7 +9990,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 0
   TileType: 2
-  NeighboringTiles: []
 --- !u!1 &1832701799 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -3047110060143060371, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -10269,7 +10011,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 0
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1845363363 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1143498748336489143, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -10291,7 +10032,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1848325841 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2979877076592103583, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -10313,7 +10053,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 1
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1853935854 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3722837967156607443, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -10335,7 +10074,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 2
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1859233780 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -6386995672370150243, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -10357,7 +10095,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!4 &1859835941 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d48f629adcfbee9449149bd986116f93, type: 3}
@@ -10384,7 +10121,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1883847346 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7069600262143352253, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -10406,7 +10142,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1897998802 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2995420918999555658, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -10428,7 +10163,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 0
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1898665553 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7440816193622912641, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -10450,7 +10184,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 0
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1908904082 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1864731057917099199, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -10472,7 +10205,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1916070935 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2766400268066537359, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -10494,7 +10226,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1916702078 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -8397988930910074831, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -10516,7 +10247,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 1
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1921123086 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7331664785943053323, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -10538,7 +10268,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 1
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1925683405 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3064113641039579227, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -10560,7 +10289,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1925895723 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -743258060322418550, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -10582,7 +10310,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1936165835 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5178766988472689968, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -10604,7 +10331,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 0
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1936313157 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4472071355294822946, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -10626,7 +10352,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 1
   TileType: 1
-  NeighboringTiles: []
 --- !u!1 &1943380781 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7604781139440093111, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -10648,7 +10373,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1958735954
 GameObject:
   m_ObjectHideFlags: 0
@@ -10784,7 +10508,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 0
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1977248503 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 757889677984496672, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -10806,7 +10529,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 0
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1986806174 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -4158882072491832392, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -10828,7 +10550,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1989984042 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1091888067363479926, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -10850,7 +10571,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 1
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1997385876 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -6372117650901472472, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -10872,7 +10592,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 1
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1998243205 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6590120552745101930, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -10894,7 +10613,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &1998671870 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -3133814635670431490, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -10916,7 +10634,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 2
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &2000062424 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4135752967492286233, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -10938,7 +10655,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &2013264620 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -4334787922900686031, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -10960,7 +10676,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 2
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &2020181921
 GameObject:
   m_ObjectHideFlags: 0
@@ -11096,7 +10811,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &2024785828 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -6140783369653832300, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -11118,7 +10832,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 2
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &2033684447 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4718960849847929375, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -11140,7 +10853,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &2035179611 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5373466810610827102, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -11162,7 +10874,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 1
   TileType: 1
-  NeighboringTiles: []
 --- !u!1 &2045096414 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -5660304341635565729, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -11184,7 +10895,6 @@ MonoBehaviour:
   Orientation: 1
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &2045840299 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1860833971081865375, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -11206,7 +10916,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &2049948461 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -5200452327117565137, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -11228,7 +10937,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &2051387202 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -8522134444914071266, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -11250,7 +10958,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &2053833719 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -4172413159543231693, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -11272,7 +10979,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 1
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &2058523949 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1321273379113910238, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -11294,7 +11000,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &2059484173 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -4743642760079299069, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -11316,7 +11021,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &2060400797 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2296283432531295437, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -11338,7 +11042,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 2
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &2061641968 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2093416530411920560, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -11360,7 +11063,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &2071816003 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5544171451363606142, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -11382,7 +11084,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &2074249988 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4825828320781826111, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -11404,7 +11105,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 0
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &2093948801
 GameObject:
   m_ObjectHideFlags: 0
@@ -11943,7 +11643,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 0
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &2104933356 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7718609333493489560, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -11965,7 +11664,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 0
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &2106853324 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -4852976294439004991, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -11987,7 +11685,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &2112671758 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7081027039746908231, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -12009,7 +11706,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 1
   TileType: 0
-  NeighboringTiles: []
 --- !u!1001 &2113275713
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12096,7 +11792,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &2132126821 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3495586078450547205, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -12118,7 +11813,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 0
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &2133707697 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -3938796584714775018, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -12140,7 +11834,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 0
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &2145483791 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7715562274972807385, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -12162,7 +11855,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 0
   TileType: 0
-  NeighboringTiles: []
 --- !u!1 &2145593746 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6000676930400478858, guid: 83743bb931fab2f4b8e39a26df5a0936, type: 3}
@@ -12184,7 +11876,6 @@ MonoBehaviour:
   Orientation: 0
   TileBiome: 3
   TileType: 0
-  NeighboringTiles: []
 --- !u!1001 &2519896519943000330
 PrefabInstance:
   m_ObjectHideFlags: 0

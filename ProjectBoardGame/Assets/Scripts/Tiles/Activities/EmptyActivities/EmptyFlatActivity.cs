@@ -5,7 +5,14 @@ using UnityEngine;
 
 public class EmptyFlatActivity : FlatActivity
 {
-    public EmptyFlatActivity(TileType tileType, TileBiome tileBiome) : base(tileType, tileBiome, TileObjectOptions.NONE)
+    public EmptyFlatActivity(
+        SpawnCollection spawnCollection,
+        TileType tileType,
+        TileBiome tileBiome) : base(
+            spawnCollection,
+            tileType,
+            tileBiome,
+            ActivityObjectOptions.NONE)
     {
     }
 }

@@ -21,11 +21,6 @@ public class ResourcesSettings : ScriptableObject
         return GenericTheme;
     }
 
-    public WeightedItem<TileInteractor>[] GetCorrectObjectList(SpawnObject spawnObject, Theme theme)
-    {
-        return GetCorrectObjectList(spawnObject.Type, theme);
-    }
-
     public WeightedItem<TileInteractor>[] GetCorrectObjectList(TileBiome type, Theme theme)
     {
         switch (type)
